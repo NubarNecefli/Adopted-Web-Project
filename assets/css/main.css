@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .mynav {
+  width: 85%;
+  margin: auto;
+}
+header .mycollapse {
+  justify-content: flex-end;
+}
+header .head {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(183, 71, 23);
+  display: flex;
+  gap: 900px;
+  padding: 20px;
+}
+header .text {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+  border: none;
+  outline: none;
+}
+header .icons {
+  margin-left: 20px;
+  padding-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+header .btns {
+  display: flex;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+header .lgn {
+  background-color: rgb(225, 169, 84);
+}
+header .spnsr {
+  background-color: rgb(183, 71, 23);
+}
+
+main #sec1 {
+  width: 100%;
+  height: 600px;
+  background-image: url(/assets/img/slider-1.jpg);
+}
+main .btn {
+  color: white;
+  background-color: rgb(190, 57, 13);
+}
+main .celine {
+  padding: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+main .metn {
+  margin-top: 80px;
+  padding-top: 80px;
+}
+main .button {
+  width: 150px;
+  height: 40px;
+  border-color: rgb(149, 49, 12);
+}
+main .row {
+  margin: 20px;
+  padding: 20px;
+}
+main .resim {
+  width: 400px;
+}
+main .steps {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+main .photo {
+  width: 300px;
+  height: 300px;
+}
+main .child-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-left: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+main .photos {
+  display: flex;
+  gap: 90px;
+}
+main #col-one {
+  margin-left: 250px;
+}
+main .picture {
+  gap: 30px;
+}
+main #rows {
+  display: flex;
+  flex-direction: column;
+}
+main .colls {
+  display: flex;
+  gap: 165px;
+}
+main .col-6-1 {
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+main .h3 {
+  margin-left: 25px;
+}
+main #sec6 #exampleInputPassword1 {
+  margin: 35px;
+}
+main #sec6 .forms {
+  display: flex;
+  gap: 200px;
+}
+main #sec6 .mybtn {
+  width: 200px;
+  height: 40px;
+  margin: 25px;
+  margin-top: 60px;
+}
+main #sec6 .form-group {
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(149, 49, 12);
+}
+footer .colorlib {
+  display: flex;
+  gap: 10px;
+  margin: 25px;
+  padding: 25px;
+  margin-left: 25px;
+}
+footer .colorlib h6 {
+  color: orange;
+}
+footer .colorlib p, footer .colorlib i {
+  color: gray;
+}
